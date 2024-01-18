@@ -8,7 +8,7 @@ const Contents: CollectionConfig = {
   fields: [
     {name: 'title', type: 'text'},
     {name: 'url', type: 'text'},
-    {name: 'estado', type: 'select', options: [{label: 'Dale', value: 'dale'}, {label: 'Listo', value: 'listo'}]
+    {name: 'estado', type: 'select', options: [{label: 'Dale', value: 'dale'}, {label: 'Listo', value: 'listo'}]}
   ],
 }
 
