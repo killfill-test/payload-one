@@ -3,7 +3,7 @@ import { CollectionConfig } from 'payload/types'
 const Contents: CollectionConfig = {
   slug: 'contents',
   admin: {
-    useAsTitle: 'name',
+    useAsTitle: 'title',
   },
   fields: [
     {name: 'title', type: 'text'},
